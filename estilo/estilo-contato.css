@@ -8,18 +8,15 @@ section div {
     display: flex;
     justify-content: space-between;
 }
-
 form {
     margin-left: 10%;
     margin-top: 4%;
 }
-
 section img {
     margin-right: 10%;
     margin-top: 4%;
     margin-bottom: 4%;
 }
-
 label {
     color: #FF4081;
     font-size: 40px;
@@ -28,16 +25,13 @@ label {
     line-height: 46px;
     margin-left: 3%;
 }
-
 input {
     margin: 3%;
     height: 32px;
     width: 493px;
     border-radius: 7px;
     border: 2px solid black;
-
 }
-
 textarea {
     height: 193px;
     width: 493px;
@@ -49,7 +43,6 @@ textarea {
     resize: none;
     /* tirar a decoração */
 }
-
 .enviar {
     width: 150px;
     height: 40px;
@@ -59,33 +52,25 @@ textarea {
     border-radius: 30px;
     font-size: 16px;
 }
-
 @media only screen and (max-width: 1200px) {
     section img {
         max-width: 250px;
         max-height: 250px;
     }
-
     input {
         max-height: 32px;
         max-width: 293px;
-
     }
-
     textarea {
         height: 93px;
         width: 293px;
-
     }
 }
-
 @media only screen and (max-width: 700px) {
     section img {
         display: none;
     }
-
     section div {
         margin-top: 20%;
-
     }
 }
